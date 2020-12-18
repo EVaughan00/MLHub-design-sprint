@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: models
+spec:
+  selector:
+    matchLabels:
+      app: models
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: models
+    spec:
+      containers:
+      - name: models
+        image: evaughan00/mlhub-api-models:1.0
+        ports:
+        - containerPort: 80

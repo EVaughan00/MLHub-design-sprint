@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: authresource
+spec:
+  selector:
+    matchLabels:
+      app: authresource
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: authresource
+    spec:
+      containers:
+      - name: authresource
+        image: evaughan00/mlhub-auth-resource:1.0
+        ports:
+        - containerPort: 80
