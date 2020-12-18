@@ -1,0 +1,62 @@
+version: '3.4'
+
+services:
+
+  apigateway:
+    container_name: apigateway
+    ports: 
+      - 5100:80
+    build:
+      context: .
+      dockerfile: Services/APIGateway/Dockerfile
+
+  authresource:
+    container_name: authresource
+    ports: 
+      - 5101:80
+    build:
+      context: .
+      dockerfile: Services/AuthResource/AuthResource.API/Dockerfile
+    restart: on-failure
+    # depends_on:
+    #   - rabbitmq
+
+      ## Example Microservice
+
+  models:
+    container_name: models
+    ports: 
+      - 5102:80
+    build:
+      context: .
+      dockerfile: Services/Models/Models.API/Dockerfile
+    restart: on-failure
+    # depends_on:
+    #   - rabbitmq
+
+
+  # rabbitmq:
+  #   image: rabbitmq
+  #   container_name: rabbitmq
+  #   command: rabbitmq-server
+  #   ports:
+  #     - 5672:5672
+  #     - 15672:15672
+  #   healthcheck:
+  #     test: [ "CMD", "nc", "-z", "localhost", "5672" ]
+  #     interval: 5s
+  #     timeout: 15s
+  #     retries: 1
+
+  mongo:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container: 

@@ -1,0 +1,12 @@
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/bin/Debug/netstandard2.0/SeedWork.deps.json
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/bin/Debug/netstandard2.0/SeedWork.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/bin/Debug/netstandard2.0/SeedWork.pdb
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/bin/Debug/netstandard2.0/Config.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/bin/Debug/netstandard2.0/Config.pdb
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.csprojAssemblyReference.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.AssemblyInfoInputs.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.AssemblyInfo.cs
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.csproj.CoreCompileInputs.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.csproj.CopyComplete
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/SeedWork/obj/Debug/netstandard2.0/SeedWork.pdb

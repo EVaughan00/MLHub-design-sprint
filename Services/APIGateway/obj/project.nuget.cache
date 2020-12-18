@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "ECQCPku0dCvKQa1LR/QCXfGIfLYicwSjm3drL/RKi/EAR1QR+2Ny4PAQjik/aTAJqjHHszN7eQPplwhqu7KwNw==",
+  "success": true,
+  "projectFilePath": "/home/evaughan/Documents/Projects/InnovationStation/MLHub/Services/APIGateway/APIGateway.csproj",
+  "expectedPackageFiles": [
+    "/home/evaughan/.nuget/packages/fluentvalidation/8.5.0/fluentvalidation.8.5.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.0.0/microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/microsoft.aspnetcore.middlewareanalysis/3.0.0/microsoft.aspnetcore.middlewareanalysis.3.0.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/3.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/microsoft.csharp/4.6.0/microsoft.csharp.4.6.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.0.0/microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/microsoft.extensions.diagnosticadapter/3.0.0/microsoft.extensions.diagnosticadapter.3.0.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/ocelot/13.8.0/ocelot.13.8.0.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "/home/evaughan/.nuget/packages/system.diagnostics.diagnosticsource/4.6.0/system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

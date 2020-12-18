@@ -1,0 +1,9 @@
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/bin/Debug/netstandard2.0/Config.deps.json
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/bin/Debug/netstandard2.0/Config.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/bin/Debug/netstandard2.0/Config.pdb
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/obj/Debug/netstandard2.0/Config.csprojAssemblyReference.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/obj/Debug/netstandard2.0/Config.AssemblyInfoInputs.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/obj/Debug/netstandard2.0/Config.AssemblyInfo.cs
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/obj/Debug/netstandard2.0/Config.csproj.CoreCompileInputs.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/obj/Debug/netstandard2.0/Config.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/Config/obj/Debug/netstandard2.0/Config.pdb

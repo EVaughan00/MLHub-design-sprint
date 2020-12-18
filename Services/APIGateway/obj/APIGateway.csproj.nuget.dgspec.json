@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/evaughan/Documents/Projects/InnovationStation/MLHub/Services/APIGateway/APIGateway.csproj": {}
+  },
+  "projects": {
+    "/home/evaughan/Documents/Projects/InnovationStation/MLHub/Services/APIGateway/APIGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/evaughan/Documents/Projects/InnovationStation/MLHub/Services/APIGateway/APIGateway.csproj",
+        "projectName": "APIGateway",
+        "projectPath": "/home/evaughan/Documents/Projects/InnovationStation/MLHub/Services/APIGateway/APIGateway.csproj",
+        "packagesPath": "/home/evaughan/.nuget/packages/",
+        "outputPath": "/home/evaughan/Documents/Projects/InnovationStation/MLHub/Services/APIGateway/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/evaughan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Ocelot": {
+              "target": "Package",
+              "version": "[13.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/evaughan/.dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

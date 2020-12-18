@@ -1,0 +1,12 @@
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/bin/Debug/netstandard2.0/Common.deps.json
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/bin/Debug/netstandard2.0/Common.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/bin/Debug/netstandard2.0/Common.pdb
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/bin/Debug/netstandard2.0/Config.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/bin/Debug/netstandard2.0/Config.pdb
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.csprojAssemblyReference.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.AssemblyInfoInputs.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.AssemblyInfo.cs
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.csproj.CoreCompileInputs.cache
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.csproj.CopyComplete
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.dll
+/home/evaughan/Documents/Projects/InnovationStation/MLHub/BuildingBlocks/Common/obj/Debug/netstandard2.0/Common.pdb
