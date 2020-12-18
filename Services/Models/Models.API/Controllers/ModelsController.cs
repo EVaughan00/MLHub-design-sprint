@@ -27,7 +27,6 @@ namespace Models.API.Controllers
         }
 
         [HttpPost("create")]
-        [Authorize]
         public async Task<IActionResult> Create(CreateModelsAggregateCommand command)
         {
             try { 
@@ -40,7 +39,6 @@ namespace Models.API.Controllers
         } 
 
         [HttpGet("list")]
-        [Authorize]
         public async Task<ActionResult<List<ModelsAggregateResponseDTO>>> GetAll()
         {
             try {

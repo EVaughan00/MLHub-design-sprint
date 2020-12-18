@@ -50,7 +50,6 @@ namespace AuthResource.API.Controllers
         }
 
         [HttpGet("details")]
-        [Authorize]
         public async Task<ActionResult<List<UserResponseDTO>>> Details()
         {
             try {
