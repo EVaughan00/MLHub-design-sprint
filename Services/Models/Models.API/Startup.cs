@@ -25,13 +25,21 @@ namespace Models.API
             Configuration = configuration;
         }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public IServiceProvider ConfigureServices(IServiceCollection services) {
 
             services.InitializeAll(Configuration);
             services.AddLogging(logging => logging.AddConsole());
             services.Configure<MongoDBSettings>(Configuration.GetSection("MongoDB"));
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                    builder =>
+                    {
+                        builder.WithOrigins("https://frontend-evaughan00.cloud.okteto.net/").AllowAnyMethod();
+                    });
+            });
 
             var container = new ContainerBuilder();
             
@@ -64,6 +72,8 @@ namespace Models.API
             // app.UseHttpsRedirection();
             app.UseRouting();
             
+            app.UseCors(MyAllowSpecificOrigins);
+
             app.UseAuthentication();
             app.UseAuthorization();
 
