@@ -28,7 +28,7 @@
       "commandName": "Docker",
       "launchBrowser": true,
       "environmentVariables": {},
-      "applicationUrl": "http://localhost:80"
+      "applicationUrl": "http://localhost:8080"
     }
   }
 }
