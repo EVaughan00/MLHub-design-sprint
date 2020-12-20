@@ -37,7 +37,7 @@ namespace Models.API
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                     builder =>
                     {
-                        builder.WithOrigins("https://frontend-evaughan00.cloud.okteto.net/").AllowAnyMethod();
+                        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials();
                     });
             });
 
